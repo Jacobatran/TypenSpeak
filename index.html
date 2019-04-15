@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Hinder Me</title>
+
+
+
+<style>
+    body {
+        font-family: 'Montserrat', sans-serif;
+        background: #414042;
+    }
+
+    .text-secondary {
+        margin-top: 5em; 
+        padding-bottom: 5em;
+    }
+    .text-secondary p {
+        color: #fe456e;
+        text-align: justify;
+    }
+  
+
+</style>
+
+</head>
+
+
+<body class="text-white">
+    <div class="container text-center" >
+       
+        <!-- Logo Image for the Site, using Bootstrap Margin Bottom 5 -->
+        <img src="dist/img/hinder2.png" height="auto" width="500" alt="My Logo" >
+        
+        <div  class="col-md-6 mx-auto mb-5">
+            <h4 style="color: #dd4588; font-weight: 500;">What does hinder you mean?</h4> 
+
+
+            <p style="margin-bottom:1rem; "> 
+                <p style="color: #edf1f4; font-weight: 300; font-size: 18px;">
+                    The verb hinder means to block or put something in the way of, 
+                     so if you're reading and too lazy to read for yourself, 
+                     you might copy and paste your homework to this page which will 
+                    hinder your progress of learning and comphrension. </p>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-6 mx-auto"> 
+
+                    
+
+                <!-- Creating Place for Text Inputs -->
+                <form>
+
+                    <!-- Text Area with PlaceHolder-->
+                    <div class="form-group">
+                        <textarea name="" id="text-input"  
+                        class="form-control form-control-lg" style="height:200px" placeholder="Paste Text Here"></textarea>
+                    </div>
+                    <div class="form-group">
+
+                    <!-- Rating with Bootstrap Badge -->
+                        <label for="rate">Rate</label>
+                        <div id="rate-value" class="badge badge-light  float-right" style="background-color: #ff8940" >1</div>
+
+                    <!-- Range Bar to Scrolling -->
+                        <input type="range" id="rate" class="custom-range" 
+                        min="0.5" max="2" value="1" step="0.1"> 
+                    </div>
+
+                    <div class="form-group">
+
+                    <!-- Pitch with Bootstrap Badge -->
+                        <label for="pitch">Pitch</label>
+                        <div id="pitch-value" class="badge badge-light float-right" style="background-color: #ff8940" >1</div>
+
+                    <!-- Pitch Bar to Scrolling -->
+                        <input type="range" id="pitch" class="custom-range" 
+                        min="0" max="2" value="1" step="0.1"> 
+                    </div>
+
+                    <div class="form-group">
+                        <select id="voice-select" class="form-control form-control-lg"></select>
+                    </div>
+                    <button class="btn btn-light btn-lg btn-block" style="background-color: #49EAC9">Read for Me</button>
+                    
+                </form>
+
+            
+            <div class="text-secondary">
+                <p style="font-weight:500; font-size: 20px;"> Copy & Paste:</p> 
+                <p style="color: #edf1f4; font-weight:300; font-size:18px;"> Technology is nothing. 
+                    What’s important is that you have faith in people, 
+                    that they’re basically good and smart, and if you give them tools, 
+                    they’ll do wonderful things with them.
+                </p>
+            </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </div>
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="dist/js/main.js"></script>
+
+</body>
+</html>
